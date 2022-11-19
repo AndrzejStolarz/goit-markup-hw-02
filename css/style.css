@@ -1,0 +1,13 @@
+.web
+ { color: rgba(33, 150, 243, 1);
+}
+.main-name{
+font-size: 26px;
+font-weight: 700;
+}
+.site{
+    color: rgba(0, 0, 0, 1);
+}
+.btn{
+        text-align: right;
+    }
