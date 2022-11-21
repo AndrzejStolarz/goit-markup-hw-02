@@ -1,5 +1,5 @@
 
-head {
+header {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
@@ -8,112 +8,46 @@ body {
 
   font-family: "Roboto", sans-serif;
   text-decoration: none;
-}
-h1{ font-family: Roboto;
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 60px;
-    letter-spacing: 0.06em;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);}
- h2{ font-family: Roboto;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.1;
-        letter-spacing: 0.03em;
-        text-align: center;}
-h3{
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
-    text-align: left;
-    }
+  color: rgba(33, 33, 33, 1);
 
-    .title-background{ background: rgba(47, 48, 58, 1);}
-
-.order-bttn{
-    font-family: Roboto;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 1.8;
-        letter-spacing: 0.06em;
-        text-align: center;
 }
 
+.contactlink :hover,:focus {
+  color: rgba(33, 150, 243, 1)
+}
+a:focus{ background-color: rgba(33, 150, 243, 1);
+color: rgba(255, 255, 255, 1)}
+
+h1{ color: rgba(255, 255, 255, 1);}
+
+
+.title-background{ background: rgba(47, 48, 58, 1);}
+
+.buttons{background-color: var(brand-color-gray);
+ font-style: normal;
+font-weight: 500;
+font-size:  16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+text-align: center;
+}
 .web {
   color: rgba(33, 150, 243, 1);
 
 }
-.main-name {
-  font-family: "Roboto", sans-serif;
-  font-size: 26px;
-  line-height: 1.4;
-  font-weight: 700;
 
-}
-.contactlink :hover { color:rgba(33, 150, 243, 1)
-}
-.site {
-color: rgba(0, 0, 0, 1);
-font-family: "Roboto", sans-serif;
+.contactlink :hover:focus { color:rgba(33, 150, 243, 1)
 
-}
-nav{
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    font-weight: 500;
-}
-.btn:hover{ color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  cursor: pointer;
-}
-.highlighted-btn {
-    background-color:rgba(33, 150, 243, 1) ;
-}
-
-.title{
-    color: rgba(33, 33, 33, 1);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 2;
-    }
 p{
     color: rgba(117, 117, 117, 1);
-    font-weight: 400;
-    font-size:  16px; 
-    line-height: 1.8;
-    font-family: Roboto;
-       
-}
+   }
 
 .address-footer{
-    font-family: "Roboto", sans-serif;
-    color:rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    text-align: left;
-    height: 21px;
-       width: 231px;
-        left: 215px;
-        top: 1799px;
-        border-radius: nullpx;
+      color:rgba(255, 255, 255, 0.6);
 }
 
 
 
 .background-footer{
-    background-color: rgba(47, 48, 58, 1);
-height: 252px;
-    width: 1600px;
-    left: 0px;
-    top: 1628px;
-    border-radius: 0px;
-    
-}
+    background-color: rgba(47, 48, 58, 1);}
 .site-last{ color: rgba(255, 255, 255, 1);}
