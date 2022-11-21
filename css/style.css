@@ -7,10 +7,11 @@ header {
 .webstudio{ 
   
   font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19px;
-    letter-spacing: 0.03em;}
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;}
+
 .linkcontact {
   font-size: 14px;
   font-weight: 500;
@@ -31,11 +32,7 @@ font-size: 44px;
 .web {
   color: rgba(33, 150, 243, 1);
 }
-.contactlink :hover:focus {
-  color: rgba(33, 150, 243, 1)
-}
-a :hover{ background-color: rgba(33, 150, 243, 1);
-color: rgba(255, 255, 255, 1)}
+.tel{ color: rgba(117, 117, 117, 1);}
 
 h1{
   font-size: 44px;
@@ -69,6 +66,7 @@ p {
 .title-background{ background-color: rgba(47, 48, 58, 1);}
 
 .buttons{background-color: var(brand-color-gray);
+  cursor: pointer;
  font-style: normal;
 font-weight: 500;
 font-size:  16px;
@@ -77,7 +75,7 @@ letter-spacing: 0.03em;
 text-align: center;
 }
 
-.contactlink :hover:focus { color:rgba(33, 150, 243, 1)}
+.contactlink :hover { color:rgba(33, 150, 243, 1);}
 
 
 .address-footer {
