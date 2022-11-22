@@ -31,7 +31,8 @@ top: 80px;
 border-radius: 0px;
 background: #2F303A;}
 
-.add-menu:hover{color: #2196F3}
+.add-menu:hover{color: #2196F3;}
+.link-menu:focus{color: #2196F3 ;}
 .mail{ color: #757575;}
 
 .buttons { 
@@ -40,9 +41,11 @@ background-color: #F5F4FA;
 cursor: pointer;
 text-align: center;}
 
-.button-act:hover { color: #FFFFFF;
+.button-act:focus { color: #FFFFFF;
 background-color:#2196F3 ;}
 
+.btn:hover{color: #FFFFFF;
+background-color: #2196F3;}
 .title {
 font-size: 44px;
 font-weight: 900;
@@ -98,7 +101,7 @@ color: #757575;}
 .staff{
 font-size: 16px;
 font-weight: 400;
- line-height: 1.18;
+line-height: 1.18;
 letter-spacing: 0.03em;
 text-align: center;
 color: #757575}
