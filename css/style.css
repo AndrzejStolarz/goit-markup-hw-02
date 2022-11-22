@@ -1,95 +1,128 @@
 
-header {
-  font-family: "Raleway", sans-serif;
-  text-decoration: none;
-  color: rgba(0, 0, 0, 1);}
+  body {
+    font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+      color: #212121;
+  }
+.logo { margin-top: 24px;
+  color: var(--brand-color-blue);
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.19;
+      letter-spacing: 0.033em;
+      text-decoration: none;
+      border: none;
+    }
+    .web{ color:#2196F3}
+    
 
-.webstudio{ 
+  .list-menu{ 
   
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19px;
-  letter-spacing: 0.03em;}
+  color: #212121;
+  }
+    .title-background {
+      height: 600px;
+      width: 1600px;
+      left: 0px;
+      top: 80px;
+      border-radius: 0px;
+      background: #2F303A;
+    }
 
-.linkcontact {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.12;
-  letter-spacing: 0.02em;
-  text-align: left;
+  .add-menu:hover{color: rgba(33, 150, 243, 1)}
+  .mail{ color: #757575;}
+
+  buttons:{ color:inherit;
+    background-color: #F5F4FA;
+    cursor: pointer;
+    text-align: center;
 }
+.button-act:hover:focus{ color: #FFFFFF;
 
- 
-body{
-font-family: "Roboto", sans-serif;
-font-size: 44px;
-  font-weight: 900; 
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-decoration: none;
-  color: rgba(0, 0, 0, 1);}
-.web {
-  color: rgba(33, 150, 243, 1);
+background-color:#2196F3 ;}
+
+.title{
+  
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #FFFFFF;;
+    
 }
-.tel{ color: rgba(117, 117, 117, 1);}
-
-h1{
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-align: center;
-  color: rgba(255, 255, 255, 1);}
-
-h2{ 
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-align: center;}
-h3{
+.h3{ 
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-align: left;}
-  
-p {
-  color: rgba(117, 117, 117, 1);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.71px;
-  letter-spacing: 0.03em;
-  text-align: left;
-}
-.title-background{ background-color: rgba(47, 48, 58, 1);}
-
-.buttons{background-color: var(brand-color-gray);
-  cursor: pointer;
- font-style: normal;
+  .lorem{ 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+  color: #757575;}
+  .h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.66;
+    letter-spacing: 0.03em;
+    text-align: center;}
+.name{ 
+      
+font-size: 16px;
 font-weight: 500;
-font-size:  16px;
-line-height: 1.62;
+line-height: 1.18;
 letter-spacing: 0.03em;
 text-align: center;
-}
+    }
+    .areas{ ;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 2;
+      letter-spacing: 0.06em;
+      text-align: left;}
 
-.contactlink :hover { color:rgba(33, 150, 243, 1);}
+      .offer{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
+        text-align: left;
+      color: #757575;}
+.staff{
+font-size: 16px;
+font-weight: 400;
+ line-height: 1.18;
+      letter-spacing: 0.03em;
+      text-align: center;
+   color; #757575}
 
+   .downline-footer{
+    height: 252px;
+    width: 1600px;
+    left: 0px;
+    top: 2097px;
+    border-radius: 0px;
+    background: #2F303A;
+  }
+  .address{
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFFFF;}
 
-.address-footer {
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  text-align: left;
-}
-
-
-
-.background-footer{
-    background-color: rgba(47, 48, 58, 1);}
-
+    .studio{color: rgba(255, 255, 255, 1);}
