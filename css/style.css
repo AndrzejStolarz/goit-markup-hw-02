@@ -1,37 +1,27 @@
 :root {
-  --main-color-black: #212121;
-}
-:root {
+  --main-color-black: #000000;
+
   --web-color-blue: #2196f3;
-}
-:root {
+
   --backgtound-color-grey: #2f303a;
-}
-:root {
+
   --mail-color: #757575;
-}
-:root {
+
   --buttons-color: #f5f4fa;
-}
-:root {
+
   --white-color: #ffffff;
 }
 
-:root {
-  --font-family: "Roboto", sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
   font-style: normal;
-}
-
-body {
-  font-family: var(--font-family);
-
   color: var(--main-color-black);
 }
 
 .logo {
   margin-top: 24px;
-  color: var(--web-color-blue);
+  color: var(--main-color-black);
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -57,6 +47,7 @@ body {
 
 .menu {
   color: inherit;
+  text-decoration: none;
 }
 
 .add-menu:hover {
@@ -87,24 +78,15 @@ body {
 }
 .title {
   font-size: 44px;
-  font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--white-color);
 }
 
-.h3 {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-align: left;
-}
 
 .lorem {
   font-size: 14px;
-  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
@@ -113,7 +95,6 @@ body {
 
 .h2 {
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.66;
   letter-spacing: 0.03em;
   text-align: center;
@@ -121,7 +102,6 @@ body {
 
 .name {
   font-size: 16px;
-  font-weight: 500;
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
@@ -129,7 +109,6 @@ body {
 
 .areas {
   font-size: 18px;
-  font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
   text-align: left;
@@ -137,7 +116,6 @@ body {
 
 .offer {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.87;
   letter-spacing: 0.03em;
   text-align: left;
@@ -146,7 +124,6 @@ body {
 
 .staff {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
